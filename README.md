@@ -1,4 +1,4 @@
-WebServer_SSL
-=============
+MatrixSSL
+=========
 
-A project using MatrixSSL to make a SSL
+The MatrixSSL project on EK-LM3S8962

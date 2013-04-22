@@ -1,0 +1,5 @@
+---- mp_invmod Matches (4 in 3 files) ----
+Mpi.c (e:\arm\lm3s8962projects\matrixssl\source\matrixssl\src\crypto\peersec):		if ((err = mp_invmod(pool, G, P, &tmpG)) != MP_OKAY) {
+Mpi.h (e:\arm\lm3s8962projects\matrixssl\source\matrixssl\src\crypto\peersec):#define mp_invmod    fast_mp_invmod
+Mpi.h (e:\arm\lm3s8962projects\matrixssl\source\matrixssl\src\crypto\peersec):#define mp_invmod	fast_mp_invmod
+Rsa.c (e:\arm\lm3s8962projects\matrixssl\source\matrixssl\src\crypto\peersec):	if ((err = mp_invmod(pool, &r, n, &tmp2)) != MP_OKAY) {
