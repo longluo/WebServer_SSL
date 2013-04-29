@@ -20,8 +20,8 @@
 #include "gpio.h"
 #include "ssi.h"
 #include "sysctl.h"
-//#include "fatfs/src/diskio.h"
-#include "diskio.h"
+#include "fatfs/src/diskio.h"
+
 
 /* Definitions for MMC/SDC command */
 #define CMD0    (0x40+0)    /* GO_IDLE_STATE */
