@@ -35,28 +35,6 @@
 
 //*****************************************************************************
 //
-//! \addtogroup example_list
-//! <h1>SSL Web Server (webserver-ssl)</h1>
-//!
-//! This example application demonstrates the operation of the Stellaris
-//! Ethernet controller using the lwIP TCP/IP Stack and MatrixSSL library.
-//! DHCP is used to obtain an ethernet address.  If DHCP times out without
-//! obtaining an address, an IP address is automatically allocated using the
-//! RFC3927 automatic link-local IP address allocation algorithm. The address
-//! that is selected will be shown on the OLED display.
-//!
-//! The file system code will first check to see if an SD card has been plugged
-//! into the microSD slot.  If so, all file requests from the web server will
-//! be directed to the SD card.  Otherwise, a default set of pages served up
-//! by an internal file system will be used.
-//!
-//! Requests may be made using HTTPS on port 443 (the default). Unencrypted
-//! HTTP is not supported in this example.
-//
-//*****************************************************************************
-
-//*****************************************************************************
-//
 // Debug variables.
 //
 //*****************************************************************************
